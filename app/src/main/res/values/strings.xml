@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Plinth</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="line_follower">
+        1-Max. Number of members in a team: 4.\n
+        2-No human intervention is allowed in between the race.\n
+        3-Point description will be disclosed on the spot before commencement of event.\n
+        4-Points earned will be calculated within the time limit and free time will be provided only once if any technical problem occurs.\n
+        5-In case of any discrepancies organiser’s decision will be final and binding.\n
+        6-The organizers reserve the right to change any or all of the rules as they desire. Change in the rules as if any will be informed through e- mail or via Facebook page.\n
+        7-Any team found flouting any rules would be automatically disqualified.\n
+        8-The width of the line will be 22-25 mm.\n
+        9-The track will contain certain number of check-points and if the bot goes out of the track then it has to start with the previous check- point and have to be completed in a stipulated time limit.\n</string>
+</resources>

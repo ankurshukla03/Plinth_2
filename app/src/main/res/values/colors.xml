@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent1">#FF4081</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="grey">#808080</color>
+    <color name="lightgrey">#EEEEEE</color>
+    <color name="edittextcolor">#E4E4E4</color>
+    <color name="lemon">#FFEE89</color>
+    <color name="yellow">#FFCB05</color>
+    <color name="blue2">#123B6B</color>
+    <color name="blue3">#08182F</color>
+    <color name="grey2">#252F39</color>
+
+    <color name="squarecamera__red">#F0001D</color>
+    <color name="squarecamera__pressed_red">#B3F0001D</color>
+    <color name="squarecamera__white">#FFFFFF</color>
+    <color name="primaryDark">#0D47A1</color>
+
+    <color name="squarecamera__pressed_white">#99FFFFFF</color>
+    <color name="background">#ffffff</color>
+    <color name="top_header">#13A1CB</color>
+</resources>

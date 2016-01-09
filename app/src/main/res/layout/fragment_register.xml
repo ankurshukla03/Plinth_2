@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lightgrey"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="For Any Query"/>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/griditem"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardBackgroundColor="@color/white"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignBottom="@+id/avatar"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="15dp"
+            android:weightSum="3"
+            android:layout_toEndOf="@+id/avatar"
+            android:layout_toRightOf="@+id/avatar"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/reg_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_vertical"
+                android:layout_weight="2.5"
+                android:text="Ankru Shukla"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <ImageButton
+                android:id="@+id/reg_phone1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_gravity="end"
+                android:background="@mipmap/ic_contact_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/reg_mail1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end"
+                android:background="@mipmap/ic_email_black_24dp" />
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/reg_crd2"
+        android:layout_marginLeft="10dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardBackgroundColor="@color/white"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignBottom="@+id/avatar"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="15dp"
+            android:weightSum="3"
+            android:layout_toEndOf="@+id/avatar"
+            android:layout_toRightOf="@+id/avatar"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/reg_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="2.5"
+                android:text="Ankru Shukla"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <ImageButton
+                android:id="@+id/reg_phone2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_gravity="end"
+                android:background="@mipmap/ic_contact_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/reg_mail2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end"
+                android:background="@mipmap/ic_email_black_24dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Register"
+        android:id="@+id/button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/mkpay"
+        android:text="Make Payment"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Make Payment"
+        android:visibility="gone"
+        android:id="@+id/button3"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lnmiit.madclub.plinth">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.ListEvents" />
+        <activity android:name=".Tabs_Robo.TabActivity_RR" />
+        <activity android:name=".Tabs_Robo.TabActivity_Rs" />
+        <activity android:name=".Tabs_Robo.TabActivity_Trans" />
+        <activity android:name=".Tabs_Robo.TabActivity_RW" />
+        <activity android:name=".Tabs_Robo.TabActivity_Lumos" />
+        <activity android:name=".Tabs_Robo.TabActivity_LF" />
+        <activity android:name=".Tabs_Quiz.TabActivity_BizQ" />
+        <activity android:name=".Tabs_Quiz.TabActivity_TechQ" />
+        <activity android:name=".Tabs_Coding.Tab_IUPC" />
+        <activity android:name=".Tabs_Coding.Tab_fib" />
+        <activity android:name=".Tabs_Coding.Tab_diupc" />
+        <activity android:name=".Tab_Astro.Tab_AH" />
+        <activity android:name=".Tab_Astro.Tab_itu" />
+        <activity android:name=".Tab_Astro.Tab_Asgard" />
+        <activity android:name=".TabLit.Tab_fc" />
+        <activity android:name=".TabLit.Tab_fk" />
+        <activity android:name=".TabLit.Tab_lw" />
+        <activity android:name=".TabLit.Tab_tc" />
+        <activity android:name=".Tab_Mang.Tab_sif" />
+        <activity android:name=".Tab_Mang.Tab_nego" />
+        <activity
+            android:name=".Activity.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NavigationDrawerFragment.Talks" />
+        <activity android:name=".NavigationDrawerFragment.Workshops" />
+        <activity android:name=".NavigationDrawerFragment.Map"></activity>
+    </application>
+
+</manifest>
