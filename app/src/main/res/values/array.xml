@@ -111,6 +111,7 @@
     </array>
 
     <array name="contact_name">
+        <item>Rahul Pandey</item>
         <item>Sidharth Sethia</item>
         <item>Kapil Matani</item>
         <item>Shubham Dangi</item>
@@ -123,6 +124,7 @@
     </array>
 
     <array name="contact_image">
+        <item>@drawable/cn_sd</item>
         <item>@drawable/cn_ss</item>
         <item>@drawable/cn_kp</item>
         <item>@drawable/cn_sd</item>
@@ -135,11 +137,25 @@
     </array>
 
     <array name="contact_email">
+        <item>pdrahul2@gmail.com</item>
         <item>sethiasidharth@gmail.com</item>
         <item>kapilmatani03@gmail.com</item>
         <item>theshubham.dangi@gmail.com</item>
     </array>
 
+    <array name="workshop_name">
+        <item>Data Analytics</item>
+        <item>Internet of Things</item>
+        <item>Vision Botics</item>
+        <item>Networking and Cyber Security</item>
+    </array>
+
+    <array name="workshop_image">
+        <item>@drawable/cn_sd</item>
+        <item>@drawable/cn_ss</item>
+        <item>@drawable/cn_kp</item>
+        <item>@drawable/cn_sd</item>
+    </array>
 
 
 </resources>

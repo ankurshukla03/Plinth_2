@@ -38,7 +38,11 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
     public void onBindViewHolder(EventsAdapter.ViewHolder holder, int position) {
         ModelEvents modelEvents = modelArrayList.get(position);
         holder.name.setText(modelEvents.name);
-        holder.image.setBackgroundResource(modelEvents.image);
+        if(holder.name.equals("Negotio")){
+            holder.image.setBackgroundResource(modelEvents.image);
+        }else {
+            holder.image.setImageResource(modelEvents.image);
+        }
     }
 
     @Override

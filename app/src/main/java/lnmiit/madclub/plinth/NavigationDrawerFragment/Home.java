@@ -35,8 +35,8 @@ public class Home extends android.support.v4.app.Fragment {
             "ASTRONOMY","CODING","WORKSHOPS","TALKS"};
 
     ArrayList<ModelGrid> modelGridArrayList = new ArrayList<>();
-    List<String> robo ,astronomy,quiz,e_cell,coding,literary;
-    TypedArray robo_image,quiz_image,literary_image,astro_image,coding_image,ecell_image;
+    List<String> robo ,astronomy,quiz,e_cell,coding,literary,workshop;
+    TypedArray robo_image,quiz_image,literary_image,astro_image,coding_image,ecell_image,workshop_image;
     List<String> textback_color,secondary_color_status,status;
     RecyclerView mRecyclerView;
     RecyclerView.LayoutManager mLayoutManager;
@@ -71,8 +71,6 @@ public class Home extends android.support.v4.app.Fragment {
                 secondaryColor = modelGrid.colorDark;
                 status_color = modelGrid.status_color;
                 if(modelGrid.name.equals("TALKS")){
-                    Snackbar.make(view,"Will Release Soon",Snackbar.LENGTH_SHORT).show();
-                }else if(modelGrid.name.equals("WORKSHOPS")){
                     Snackbar.make(view,"Will Release Soon",Snackbar.LENGTH_SHORT).show();
                 }else {
                     Intent i = new Intent(getActivity(), ListEvents.class);
@@ -154,6 +152,15 @@ public class Home extends android.support.v4.app.Fragment {
                 modelEventsArrayList.add(modelEvents);
             }
         }
+        else if(i == 6){
+            for (int j = 0; j < workshop.size(); j++) {
+                ModelEvents modelEvents = new ModelEvents();
+                modelEvents.name = workshop.get(j);
+                modelEvents.image = workshop_image.getResourceId(j,0);
+                modelEvents.flag = 6;
+                modelEventsArrayList.add(modelEvents);
+            }
+        }
        return  modelEventsArrayList;
     }
 
@@ -173,6 +180,8 @@ public class Home extends android.support.v4.app.Fragment {
         textback_color = Arrays.asList(getResources().getStringArray(R.array.text_color));
         secondary_color_status = Arrays.asList(getResources().getStringArray(R.array.secondary_color));
         status = Arrays.asList(getResources().getStringArray(R.array.status_color));
+        workshop = Arrays.asList(getResources().getStringArray(R.array.workshop_name));
+        workshop_image = getResources().obtainTypedArray(R.array.workshop_image);
     }
 
 }

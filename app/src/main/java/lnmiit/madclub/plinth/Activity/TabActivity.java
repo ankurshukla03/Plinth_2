@@ -222,6 +222,7 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new Rules(8), "Rules");
                 adapter.addFragment(new Register("Chitresh Sharma","08764338048","chitreshcms@gmail.com","Samyak Gupta","09462066697","sdgupta.gupta9@gmail.com",
                         "https://docs.google.com/forms/d/1zkygUeLgbcMcQpRZ44nzY7iXq8fqF-DlSLnqt_5FB-U/viewform?embedded=true","","",status), "Register");
+                break;
             case "Asgard":
                 adapter.addFragment(new Synopsis(9), "Synopsis");
                 adapter.addFragment(new ProblemStatement(9), "Problem Statement");
@@ -254,6 +255,37 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new ProblemStatement(13), "Problem Statement");
                 adapter.addFragment(new Rules(13), "Rules");
                 adapter.addFragment(new Register("Yash Varyani","07728990660","veyron1306@gmail.com","Vaibhav Shrotriya","07793075905","vaibhavshrotriya4@gmail.com","","","",status), "Register");
+                break;
+            case "Data Analytics":
+                adapter.addFragment(new Synopsis(14), "Home");
+                adapter.addFragment(new ProblemStatement(14), "Workshop Content");
+                adapter.addFragment(new Rules(14), "Benefits");
+                adapter.addFragment(new Register("Shubham Dangi","09828853059","theshubham.dangi@gmail.com","Rohit Hinduja","08989171066","rohithinduja2013@gmail.com","https://docs.google.com/forms/d/1jch2Z3_8k4o1MCUr-Ns5uAVhhYHdJmd_j32oo3S1tpk/viewform?c=0&w=1&usp=send_form",
+                        "","http://thecollegefever.com/plinth",status), "Register");
+                break;
+            case "Internet of Things":
+                adapter.addFragment(new Synopsis(15), "Home");
+                adapter.addFragment(new ProblemStatement(15), "Workshop Content");
+                adapter.addFragment(new Rules(15), "Benefits");
+                adapter.addFragment(new Register("Kapil Matani","09462317503","kapilmatani03@gmail.com",
+                        "Deepika Singhal","09461481539","deepikasinghal.07@gmail.com","https://docs.google.com/forms/d/1jch2Z3_8k4o1MCUr-Ns5uAVhhYHdJmd_j32oo3S1tpk/viewform?c=0&w=1","",
+                        "http://thecollegefever.com/plinth",status), "Register");
+                break;
+            case "Vision Botics":
+                adapter.addFragment(new Synopsis(16), "Home");
+                adapter.addFragment(new ProblemStatement(16), "Workshop Content");
+                adapter.addFragment(new Rules(16), "Benefits");
+                adapter.addFragment(new Register("Kapil Matani","09462317503","kapilmatani03@gmail.com",
+                        "Deepika Singhal","09461481539","deepikasinghal.07@gmail.com","https://docs.google.com/forms/d/1jch2Z3_8k4o1MCUr-Ns5uAVhhYHdJmd_j32oo3S1tpk/viewform?c=0&w=1","",
+                        "http://thecollegefever.com/plinth",status), "Register");
+                break;
+            case "Networking and Cyber Security":
+                adapter.addFragment(new Synopsis(17), "Home");
+                adapter.addFragment(new ProblemStatement(17), "Workshop Content");
+                adapter.addFragment(new Rules(17), "Benefits");
+                adapter.addFragment(new Register("Kapil Matani","09462317503","kapilmatani03@gmail.com",
+                        "Deepika Singhal","09461481539","deepikasinghal.07@gmail.com","https://docs.google.com/forms/d/1jch2Z3_8k4o1MCUr-Ns5uAVhhYHdJmd_j32oo3S1tpk/viewform?c=0&w=1","",
+                        "http://thecollegefever.com/plinth",status), "Register");
                 break;
 
         }
