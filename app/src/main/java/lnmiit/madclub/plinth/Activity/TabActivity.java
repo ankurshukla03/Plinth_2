@@ -115,7 +115,7 @@ public class TabActivity extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         switch (type) {
             case "Transporter":
-                adapter.addFragment(new Synopsis_Robotics(-6), "Synopsis");
+                adapter.addFragment(new Synopsis_Robotics(-6,TabActivity.this), "Synopsis");
                 adapter.addFragment(new ProblemStatement(-6), "Problem Statement");
                 adapter.addFragment(new Rules(-6), "Rules");
                 adapter.addFragment(new Arena(-6), "Arena");
@@ -124,7 +124,7 @@ public class TabActivity extends AppCompatActivity {
                         "http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Robowar":
-                adapter.addFragment(new Synopsis_Robotics(-5), "Synopsis");
+                adapter.addFragment(new Synopsis_Robotics(-5,TabActivity.this), "Synopsis");
                 adapter.addFragment(new ProblemStatement(-5), "Problem Statement");
                 adapter.addFragment(new Rules(-5), "Rules");
                 adapter.addFragment(new Arena(-5), "Arena");
@@ -133,7 +133,7 @@ public class TabActivity extends AppCompatActivity {
                         "http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Line Follower":
-                adapter.addFragment(new Synopsis_Robotics(-4), "Synopsis");
+                adapter.addFragment(new Synopsis_Robotics(-4,TabActivity.this), "Synopsis");
                 adapter.addFragment(new ProblemStatement(-4), "Problem Statement");
                 adapter.addFragment(new Rules(-4), "Rules");
                 adapter.addFragment(new Arena(-4), "Arena");
@@ -142,7 +142,7 @@ public class TabActivity extends AppCompatActivity {
                         "http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Lumos":
-                adapter.addFragment(new Synopsis_Robotics(-3), "Synopsis");
+                adapter.addFragment(new Synopsis_Robotics(-3,TabActivity.this), "Synopsis");
                 adapter.addFragment(new ProblemStatement(-3), "Problem Statement");
                 adapter.addFragment(new Rules(-3), "Rules");
                 adapter.addFragment(new Arena(-3), "Arena");
@@ -151,7 +151,7 @@ public class TabActivity extends AppCompatActivity {
                         "http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Robo Race":
-                adapter.addFragment(new Synopsis_Robotics(-2), "Synopsis");
+                adapter.addFragment(new Synopsis_Robotics(-2,TabActivity.this), "Synopsis");
                 adapter.addFragment(new ProblemStatement(-2), "Problem Statement");
                 adapter.addFragment(new Rules(-2), "Rules");
                 adapter.addFragment(new Arena(-2), "Arena");
@@ -160,7 +160,7 @@ public class TabActivity extends AppCompatActivity {
                         "http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Robo Soccer":
-                adapter.addFragment(new Synopsis_Robotics(-1), "Synopsis");
+                adapter.addFragment(new Synopsis_Robotics(-1,TabActivity.this), "Synopsis");
                 adapter.addFragment(new ProblemStatement(-1), "Problem Statement");
                 adapter.addFragment(new Rules(-1), "Rules");
                 adapter.addFragment(new Arena(-1), "Arena");

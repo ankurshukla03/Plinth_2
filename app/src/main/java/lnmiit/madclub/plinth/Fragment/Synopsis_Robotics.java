@@ -1,5 +1,7 @@
 package lnmiit.madclub.plinth.Fragment;
 
+import android.content.Context;
+import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -9,6 +11,8 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.lang.ref.SoftReference;
 
 import lnmiit.madclub.plinth.R;
 
@@ -21,10 +25,13 @@ public class Synopsis_Robotics extends Fragment {
     WebView webView;
     ImageView imageView;
     TextView textView;
+
+    Context context;
     public Synopsis_Robotics() {
     }
-    public Synopsis_Robotics(int type) {
+    public Synopsis_Robotics(int type,Context context) {
         this.type=type;
+        this.context = context;
     }
 
     @Nullable
@@ -34,6 +41,8 @@ public class Synopsis_Robotics extends Fragment {
         imageView = (ImageView)view.findViewById(R.id.synp_image_robotics);
         webView = (WebView)view.findViewById(R.id.webview_synp_trans);
         textView = (TextView)view.findViewById(R.id.prize_money_text);
+
+
         switch (type)
         {
             case -6:
@@ -64,7 +73,7 @@ public class Synopsis_Robotics extends Fragment {
             case -1:
                 imageView.setImageResource(R.drawable.robosoccer);
                 textView.setText("Rs 25,000");
-                webView.loadUrl("file:///android_asset/Robosoccer_Synopsis.html");
+                webView.loadUrl("file:///android_asset/Robsoccer_Synopsis.html");
                 break;
         }
         return view;
