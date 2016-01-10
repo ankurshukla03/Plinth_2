@@ -71,7 +71,8 @@ public class Home extends android.support.v4.app.Fragment {
                 secondaryColor = modelGrid.colorDark;
                 status_color = modelGrid.status_color;
                 if(modelGrid.name.equals("TALKS")){
-                    Snackbar.make(view,"Will Release Soon",Snackbar.LENGTH_SHORT).show();
+                    Intent i = new Intent(getActivity(),Talks.class);
+                    startActivity(i);
                 }else {
                     Intent i = new Intent(getActivity(), ListEvents.class);
                     i.putExtra("model", temp);
