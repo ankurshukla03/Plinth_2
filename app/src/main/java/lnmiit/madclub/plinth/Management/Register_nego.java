@@ -1,6 +1,7 @@
 package lnmiit.madclub.plinth.Management;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -23,7 +24,8 @@ public class Register_nego extends Fragment {
     //it has only two button isme payment ka option nh hai
     Button button_reg,payment;
     ImageButton phone1,mail1,phone2,mail2;
-    TextView name1,name2;
+    TextView name1, name2,no1,no2,email1,email2;
+    String color;
     public Register_nego() {
     }
 
@@ -39,12 +41,25 @@ public class Register_nego extends Fragment {
         name1 = (TextView)view.findViewById(R.id.reg_name1);
         name2 = (TextView)view.findViewById(R.id.reg_name2);
         payment = (Button)view.findViewById(R.id.mkpay);
+        no1 = (TextView)view.findViewById(R.id.reg_no1);
+        no2 = (TextView)view.findViewById(R.id.reg_no2);
+        email1 = (TextView)view.findViewById(R.id.reg_e1);
+        email2 = (TextView)view.findViewById(R.id.reg_e2);
+
+        color = "#d69940";
 
         button_reg.setText("STARTUPS REGISTER HERE");
         payment.setText("VIEWERS REGISTER HERE");
 
         name1.setText("Akhilesh Maheshwari");
         name2.setText("Guarav Maheshwari");
+        no1.setText("09772565365");
+        email1.setText("ak2maheshwari@gmail.com");
+        no2.setText("07597023883");
+        email2.setText("gmaheshwari26@gmail.com");
+        button_reg.setBackgroundColor(Color.parseColor(color));
+        payment.setBackgroundColor(Color.parseColor(color));
+
 
         phone1.setOnClickListener(new View.OnClickListener() {
             @Override

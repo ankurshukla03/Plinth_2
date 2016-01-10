@@ -1,6 +1,7 @@
 package lnmiit.madclub.plinth.Management;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -22,7 +23,8 @@ public class Register_sif extends Fragment {
 //it has three button to naam chng hai thda take care of it while editing
     Button button_reg,payment,startup_reg;
     ImageButton phone1,mail1,phone2,mail2;
-    TextView name1,name2;
+    TextView name1, name2,no1,no2,email1,email2;
+    String color;
 
     public Register_sif() {
     }
@@ -40,15 +42,27 @@ public class Register_sif extends Fragment {
         name2 = (TextView)view.findViewById(R.id.reg_name2);
          startup_reg = (Button)view.findViewById(R.id.button3);
         payment = (Button)view.findViewById(R.id.mkpay);
+        no1 = (TextView)view.findViewById(R.id.reg_no1);
+        no2 = (TextView)view.findViewById(R.id.reg_no2);
+        email1 = (TextView)view.findViewById(R.id.reg_e1);
+        email2 = (TextView)view.findViewById(R.id.reg_e2);
 
         startup_reg.setVisibility(View.VISIBLE);
+        color = "#d69940";
 
         button_reg.setText("STUDENT REGISTER HERE");
         startup_reg.setText("MAKE PAYMENT");
         payment.setText("STARTUPS REGISTER HERE");
+        button_reg.setBackgroundColor(Color.parseColor(color));
+        startup_reg.setBackgroundColor(Color.parseColor(color));
+        payment.setBackgroundColor(Color.parseColor(color));
 
         name1.setText("Sumit Sapra");
         name2.setText("Parul Chhabra");
+        no1.setText("09782799066");
+        email1.setText("startupinternfair.plinth@gmail.com");
+        no2.setText("08875063000");
+        email2.setText("startupinternfair.plinth@gmail.com");
 
         phone1.setOnClickListener(new View.OnClickListener() {
             @Override

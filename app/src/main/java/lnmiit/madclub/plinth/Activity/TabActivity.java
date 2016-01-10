@@ -121,7 +121,7 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new Arena(-6), "Arena");
                 adapter.addFragment(new Register("Priyansh Mangal","09529666908","priyanshmangal@gmail.com","Kritika Karwasra","08503926151","mekritika28@gmail.com",
                         "https://docs.google.com/forms/d/19OJ19k7xw64Vq5iZ5ee2lxLfKPRzNhtAq_VEF6K5U5M/viewform?embedded=true","",
-                        "http://thecollegefever.com/plinth",primaryColor), "Register");
+                        "http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Robowar":
                 adapter.addFragment(new Synopsis_Robotics(-5), "Synopsis");
@@ -130,7 +130,7 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new Arena(-5), "Arena");
                 adapter.addFragment(new Register("Samyak Dutt Gupta","09462066697","sdgupta.gupta9@gmail.com","Abhishek Sukhwal","07597722415","abhisheksukhwal9@gmail.com",
                         "https://docs.google.com/forms/d/1C7E-RXx8ck_U7bg8wno6MyM158zK2K8NyOP6Fw6vZ8U/viewform?embedded=true","",
-                        "http://thecollegefever.com/plinth",primaryColor), "Register");
+                        "http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Line Follower":
                 adapter.addFragment(new Synopsis_Robotics(-4), "Synopsis");
@@ -139,7 +139,7 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new Arena(-4), "Arena");
                 adapter.addFragment(new Register("Ankit Puri","08003194158","ankitpuri1995@gmail.com","Aayush Agarwal","09462035225","aayushag007@gmail.com",
                         "https://docs.google.com/forms/d/1ibO17nEovdrhhxM7HzQjCcivrsWtUtZ9kzb8t699u2I/viewform?embedded=true","",
-                        "http://thecollegefever.com/plinth",primaryColor), "Register");
+                        "http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Lumos":
                 adapter.addFragment(new Synopsis_Robotics(-3), "Synopsis");
@@ -148,7 +148,7 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new Arena(-3), "Arena");
                 adapter.addFragment(new Register("Vipul Behl","09468590302","vipul.viki@gmail.com","Sumit Sapra","09782799066","sumitsapra008@gmail.com",
                         "https://docs.google.com/forms/d/1d9TdRc0afutOn1_Ie_5D_h-0KGdL0L6WwAF7sPGT7C8/viewform?embedded=true","",
-                        "http://thecollegefever.com/plinth",primaryColor), "Register");
+                        "http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Robo Race":
                 adapter.addFragment(new Synopsis_Robotics(-2), "Synopsis");
@@ -157,7 +157,7 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new Arena(-2), "Arena");
                 adapter.addFragment(new Register("Harshit Somani","08003244787","harshitsom@gmail.com","Mithin Nair","07073837006","nairmithin2@gmail.com",
                         "https://docs.google.com/forms/d/1d0-kYWS42pSIkFl0U-Xi0lf-PCURFeWr6zDKUe7KV5o/viewform?embedded=true","",
-                        "http://thecollegefever.com/plinth",primaryColor), "Register");
+                        "http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Robo Soccer":
                 adapter.addFragment(new Synopsis_Robotics(-1), "Synopsis");
@@ -166,19 +166,19 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new Arena(-1), "Arena");
                 adapter.addFragment(new Register("Bharti Sharma","09462733116","itsbhartitime1@gmail.com","Lokesh Todwal","09462999051","lokeshtodwal005@gmail.com",
                         "https://docs.google.com/forms/d/1jn3P8F9rOYOr1ccqZIsfLgqjKCF857UgSPlLeoP1yqY/viewform?embedded=true","",
-                        "http://thecollegefever.com/plinth",primaryColor), "Register");
+                        "http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Biz Quiz":
                 adapter.addFragment(new Synopsis(0), "Synopsis");
                 adapter.addFragment(new ProblemStatement(0), "Problem Statement");
                 adapter.addFragment(new Rules(0), "Rules");
-                adapter.addFragment(new Register("Shubham Pandey","07597022620","y13uc283@lnmiit.ac.in","Navneet Kumar","08003252847","y13uc173@lnmiit.ac.in","","","",primaryColor), "Register");
+                adapter.addFragment(new Register("Shubham Pandey","07597022620","y13uc283@lnmiit.ac.in","Navneet Kumar","08003252847","y13uc173@lnmiit.ac.in","","","",status), "Register");
                 break;
             case "Tech Quiz":
                 adapter.addFragment(new Synopsis(1), "Synopsis");
                 adapter.addFragment(new ProblemStatement(1), "Problem Statement");
                 adapter.addFragment(new Rules(1), "Rules");
-                adapter.addFragment(new Register("Shubham Pandey","07597022620","y13uc283@lnmiit.ac.in","Sidharth Sethia","07023479993","y13uc290@lnmiit.ac.in","","","",primaryColor), "Register");
+                adapter.addFragment(new Register("Shubham Pandey","07597022620","y13uc283@lnmiit.ac.in","Sidharth Sethia","07023479993","y13uc290@lnmiit.ac.in","","","",status), "Register");
                 break;
             case "Negotio":
                 adapter.addFragment(new Synopsis(2), "Synopsis");
@@ -196,64 +196,64 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new Synopsis(4), "Synopsis");
                 adapter.addFragment(new ProblemStatement(4), "Problem Statement");
                 adapter.addFragment(new Rules(4), "Rules");
-                adapter.addFragment(new Register("Ishant Rajpurohit","0887533243","y13uc283@lnmiit.ac.in","Navneet Kumar","08003252847","y13uc173@lnmiit.ac.in","","","",primaryColor),"Register");
+                adapter.addFragment(new Register("Ishant Rajpurohit","0887533243","y13uc283@lnmiit.ac.in","","","","","","",status),"Register");
                 break;
             case "Lyrewrite":
                 adapter.addFragment(new Synopsis(5), "Synopsis");
                 adapter.addFragment(new ProblemStatement(5), "Problem Statement");
                 adapter.addFragment(new Rules(5), "Rules");
-                adapter.addFragment(new Register("Avina Jain","09530457925","","Ritwik Bang","08003585305","","","","",primaryColor),"Register");
+                adapter.addFragment(new Register("Avina Jain","09530457925","","Ritwik Bang","08003585305","","","","",status),"Register");
                 break;
             case "Floor Crossing":
                 adapter.addFragment(new Synopsis(6), "Synopsis");
                 adapter.addFragment(new ProblemStatement(6), "Problem Statement");
                 adapter.addFragment(new Rules(6), "Rules");
-                adapter.addFragment(new Register("Bhavik Thakkar","08003253190","","Mihika Naik","09602974538","","","","",primaryColor), "Register");
+                adapter.addFragment(new Register("Bhavik Thakkar","08003253190","","Mihika Naik","09602974538","","","","",status), "Register");
                 break;
             case "TurnCoat":
                 adapter.addFragment(new Synopsis(7), "Synopsis");
                 adapter.addFragment(new ProblemStatement(7), "Problem Statement");
                 adapter.addFragment(new Rules(7), "Rules");
-                adapter.addFragment(new Register("Sonali Gupta","09462900363","","Sobhit Asai","09479361848","","","","",primaryColor),"Register");
+                adapter.addFragment(new Register("Sonali Gupta","09462900363","","Sobhit Asai","09479361848","","","","",status),"Register");
                 break;
             case "Astro Hunt":
                 adapter.addFragment(new Synopsis(8), "Synopsis");
                 adapter.addFragment(new ProblemStatement(8), "Problem Statement");
                 adapter.addFragment(new Rules(8), "Rules");
                 adapter.addFragment(new Register("Chitresh Sharma","08764338048","chitreshcms@gmail.com","Samyak Gupta","09462066697","sdgupta.gupta9@gmail.com",
-                        "https://docs.google.com/forms/d/1zkygUeLgbcMcQpRZ44nzY7iXq8fqF-DlSLnqt_5FB-U/viewform?embedded=true","","",primaryColor), "Register");
+                        "https://docs.google.com/forms/d/1zkygUeLgbcMcQpRZ44nzY7iXq8fqF-DlSLnqt_5FB-U/viewform?embedded=true","","",status), "Register");
             case "Asgard":
                 adapter.addFragment(new Synopsis(9), "Synopsis");
                 adapter.addFragment(new ProblemStatement(9), "Problem Statement");
                 adapter.addFragment(new Rules(9), "Rules");
                 adapter.addFragment(new Register("Mihika Naik","09602974538","p.mihika@gmail.com","Shubham Gupta","07725924217","samigupta248@gmail.com",
-                        "https://docs.google.com/forms/d/1zkygUeLgbcMcQpRZ44nzY7iXq8fqF-DlSLnqt_5FB-U/viewform?embedded=true","","",primaryColor), "Register");
+                        "https://docs.google.com/forms/d/1zkygUeLgbcMcQpRZ44nzY7iXq8fqF-DlSLnqt_5FB-U/viewform?embedded=true","","",status), "Register");
                 break;
             case "Into the Universe":
                 adapter.addFragment(new Synopsis(10), "Synopsis");
                 adapter.addFragment(new ProblemStatement(10), "Problem Statement");
                 adapter.addFragment(new Rules(10), "Rules");
                 adapter.addFragment(new Register("Kushagra Sharma","07597603418","ramkrishn12345@gmail.com","Srishti Bhardwaj","09461631493","bsrishtib@gmail.com",
-                        "https://docs.google.com/forms/d/1zkygUeLgbcMcQpRZ44nzY7iXq8fqF-DlSLnqt_5FB-U/viewform?embedded=true","","",primaryColor), "Register");
+                        "https://docs.google.com/forms/d/1zkygUeLgbcMcQpRZ44nzY7iXq8fqF-DlSLnqt_5FB-U/viewform?embedded=true","","",status), "Register");
                 break;
             case "IUPC":
                 adapter.addFragment(new Synopsis(11), "Synopsis");
                 adapter.addFragment(new ProblemStatement(11), "Problem Statement");
                 adapter.addFragment(new Rules(11), "Rules");
                 adapter.addFragment(new Register("Yash Varyani","07728990660","veyron1306@gmail.com","Vaibhav Shrotriya","07793075905","vaibhavshrotriya4@gmail.com",
-                        "https://docs.google.com/forms/d/1BW3mPPDbm1eIkZTt1TyRjwuC16e2uYEDpw-VtLY4Z4s/viewform?c=0&w=1","","",primaryColor), "Register");
+                        "https://docs.google.com/forms/d/1BW3mPPDbm1eIkZTt1TyRjwuC16e2uYEDpw-VtLY4Z4s/viewform?c=0&w=1","","",status), "Register");
                 break;
             case "Distraction IUPC":
                 adapter.addFragment(new Synopsis(12), "Synopsis");
                 adapter.addFragment(new ProblemStatement(12), "Problem Statement");
                 adapter.addFragment(new Rules(12), "Rules");
-                adapter.addFragment(new Register("Yash Varyani","07728990660","veyron1306@gmail.com","Vaibhav Shrotriya","07793075905","vaibhavshrotriya4@gmail.com","","","",primaryColor), "Register");
+                adapter.addFragment(new Register("Yash Varyani","07728990660","veyron1306@gmail.com","Vaibhav Shrotriya","07793075905","vaibhavshrotriya4@gmail.com","","","",status), "Register");
                 break;
             case "Fix the Bug":
                 adapter.addFragment(new Synopsis(13), "Synopsis");
                 adapter.addFragment(new ProblemStatement(13), "Problem Statement");
                 adapter.addFragment(new Rules(13), "Rules");
-                adapter.addFragment(new Register("Yash Varyani","07728990660","veyron1306@gmail.com","Vaibhav Shrotriya","07793075905","vaibhavshrotriya4@gmail.com","","","",primaryColor), "Register");
+                adapter.addFragment(new Register("Yash Varyani","07728990660","veyron1306@gmail.com","Vaibhav Shrotriya","07793075905","vaibhavshrotriya4@gmail.com","","","",status), "Register");
                 break;
 
         }
