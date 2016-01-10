@@ -15,8 +15,12 @@ import lnmiit.madclub.plinth.R;
  */
 public class Rules extends Fragment {
 
-    private WebView webView_rules;
+    int type;
+    private WebView wv;
     public Rules() {
+    }
+    public Rules(int type) {
+        this.type=type;
     }
 
     @Nullable
@@ -24,7 +28,71 @@ public class Rules extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_rules, container, false);
-        webView_rules = (WebView)view.findViewById(R.id.webView_rules);
+        wv = (WebView)view.findViewById(R.id.webView_rules);
+        switch (type)
+        {
+            case -6:
+                wv.loadUrl("file:///android_asset/Transporter_Rules.html");
+                break;
+            case -5:
+                wv.loadUrl("file:///android_asset/Robowar_Rules.html");
+                break;
+            case -4:
+                wv.loadUrl("file:///android_asset/Linefollower_Rules.html");
+                break;
+            case -3:
+                wv.loadUrl("file:///android_asset/Lumos_Rules.html");
+                break;
+            case -2:
+                wv.loadUrl("file:///android_asset/Roborace_Rules.html");
+                break;
+            case -1:
+                wv.loadUrl("file:///android_asset/Robsoccer_Rules.html");
+                break;
+            case 0:
+                wv.loadUrl("file:///android_asset/BizQuiz_Rules.html");
+                break;
+            case 1:
+                wv.loadUrl("file:///android_asset/TechQuiz_Rules.html");
+                break;
+            case 2:
+                wv.loadUrl("file:///android_asset/Negotio_Rules.html");
+                break;
+            case 3:
+                wv.loadUrl("file:///android_asset/SIF_Rules.html");
+                break;
+            case 4:
+                wv.loadUrl("file:///android_asset/FindersKeepers_Rules.html");
+                break;
+            case 5:
+                wv.loadUrl("file:///android_asset/Lyrewrite_Rules.html");
+                break;
+            case 6:
+                wv.loadUrl("file:///android_asset/TurnCoat_Rules.html");
+                break;
+            case 7:
+                wv.loadUrl("file:///android_asset/TurnCoat_PS.html");
+                break;
+            case 8:
+                wv.loadUrl("file:///android_asset/Astrohunt_Rules.html");
+                break;
+            case 9:
+                wv.loadUrl("file:///android_asset/Asgard_Rules.html");
+                break;
+            case 10:
+                wv.loadUrl("file:///android_asset/IntoTheUniverse_Rules.html");
+                break;
+            case 11:
+                wv.loadUrl("file:///android_asset/IUPC_Rules.html");
+                break;
+            case 12:
+                wv.loadUrl("file:///android_asset/DistractionIUPC_Rules.html");
+                break;
+            case 13:
+                wv.loadUrl("file:///android_asset/FixTheBug_Rules.html");
+                break;
+
+        }
 
         return view;
     }

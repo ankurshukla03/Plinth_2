@@ -2,36 +2,28 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="lnmiit.madclub.plinth">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission android:name="lnmiit.madclub.plinth.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/MyMaterialTheme">
-        <activity android:name=".Activity.MainActivity" />
-        <activity android:name=".Activity.ListEvents" />
-        <activity android:name=".Tabs_Robo.TabActivity_RR" />
-        <activity android:name=".Tabs_Robo.TabActivity_Rs" />
-        <activity android:name=".Tabs_Robo.TabActivity_Trans" />
-        <activity android:name=".Tabs_Robo.TabActivity_RW" />
-        <activity android:name=".Tabs_Robo.TabActivity_Lumos" />
-        <activity android:name=".Tabs_Robo.TabActivity_LF" />
-        <activity android:name=".Tabs_Quiz.TabActivity_BizQ" />
-        <activity android:name=".Tabs_Quiz.TabActivity_TechQ" />
-        <activity android:name=".Tabs_Coding.Tab_IUPC" />
-        <activity android:name=".Tabs_Coding.Tab_fib" />
-        <activity android:name=".Tabs_Coding.Tab_diupc" />
-        <activity android:name=".Tab_Astro.Tab_AH" />
-        <activity android:name=".Tab_Astro.Tab_itu" />
-        <activity android:name=".Tab_Astro.Tab_Asgard" />
-        <activity android:name=".TabLit.Tab_fc" />
-        <activity android:name=".TabLit.Tab_fk" />
-        <activity android:name=".TabLit.Tab_lw" />
-        <activity android:name=".TabLit.Tab_tc" />
-        <activity android:name=".Tab_Mang.Tab_sif" />
-        <activity android:name=".Tab_Mang.Tab_nego" />
+        android:supportsRtl="true">
+        <activity android:name=".Activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Activity.ListEvents"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".Activity.TabActivity"
+            android:theme="@style/AppTheme2"/>
         <activity
             android:name=".Activity.SplashScreen"
             android:label="@string/app_name"
@@ -42,9 +34,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NavigationDrawerFragment.Talks" />
-        <activity android:name=".NavigationDrawerFragment.Workshops" />
-        <activity android:name=".NavigationDrawerFragment.Map"></activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDoOI3vhxFSkDJ_F8bkznDSnuXBrR4o490" />
     </application>
 
 </manifest>

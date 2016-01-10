@@ -56,7 +56,7 @@ public class ContactAdapter extends BaseAdapter {
         View view;
         ViewHolder holder;
         if (convertView == null) {
-            view = mInflater.inflate(R.layout.inflator_contact_us, parent, false);
+            view = mInflater.inflate(R.layout.item_contact_list, parent, false);
             holder = new ViewHolder();
             holder.name = (TextView) view.findViewById(R.id.contact_name);
             holder.designation = (TextView) view.findViewById(R.id.contact_designation);

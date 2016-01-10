@@ -6,7 +6,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView;
 
 import lnmiit.madclub.plinth.R;
 
@@ -16,14 +15,18 @@ import lnmiit.madclub.plinth.R;
 public class Arena extends Fragment {
 
 
+    int type;
     public Arena() {
+    }
+    public Arena(int type) {
+        this.type=type;
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.arena_tab,container,false);
+        View view = inflater.inflate(R.layout.fragment_arena,container,false);
 
 
 

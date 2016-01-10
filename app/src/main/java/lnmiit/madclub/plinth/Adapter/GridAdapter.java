@@ -30,7 +30,7 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
     @Override
     public GridAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.grid_item, parent, false);
+                .inflate(R.layout.item_gridview, parent, false);
         txt = (TextView)v.findViewById(R.id.gridtext);
         ViewHolder viewHolder = new ViewHolder(v);
         return viewHolder;
