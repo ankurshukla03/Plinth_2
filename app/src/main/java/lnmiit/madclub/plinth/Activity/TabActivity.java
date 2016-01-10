@@ -60,7 +60,7 @@ public class TabActivity extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
         tabLayout.setBackgroundColor(Color.parseColor(primaryColor));
-        tabLayout.setTabTextColors(Color.parseColor(secondaryColor),R.color.colorPrimaryDark);
+        //tabLayout.setTabTextColors(Color.parseColor(secondaryColor),R.color.white);
     }
 
     private void setUpToolbar() {
@@ -154,7 +154,6 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new Synopsis_Robotics(-2,TabActivity.this), "Synopsis");
                 adapter.addFragment(new ProblemStatement(-2), "Problem Statement");
                 adapter.addFragment(new Rules(-2), "Rules");
-                adapter.addFragment(new Arena(-2), "Arena");
                 adapter.addFragment(new Register("Harshit Somani","08003244787","harshitsom@gmail.com","Mithin Nair","07073837006","nairmithin2@gmail.com",
                         "https://docs.google.com/forms/d/1d0-kYWS42pSIkFl0U-Xi0lf-PCURFeWr6zDKUe7KV5o/viewform?embedded=true","",
                         "http://thecollegefever.com/plinth",status), "Register");
@@ -256,11 +255,11 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new Rules(13), "Rules");
                 adapter.addFragment(new Register("Yash Varyani","07728990660","veyron1306@gmail.com","Vaibhav Shrotriya","07793075905","vaibhavshrotriya4@gmail.com","","","",status), "Register");
                 break;
-            case "Data Analytics":
+            case "Data Science":
                 adapter.addFragment(new Synopsis(14), "Home");
                 adapter.addFragment(new ProblemStatement(14), "Workshop Content");
                 adapter.addFragment(new Rules(14), "Benefits");
-                adapter.addFragment(new Register("Shubham Dangi","09828853059","theshubham.dangi@gmail.com","Rohit Hinduja","08989171066","rohithinduja2013@gmail.com","https://docs.google.com/forms/d/1jch2Z3_8k4o1MCUr-Ns5uAVhhYHdJmd_j32oo3S1tpk/viewform?c=0&w=1&usp=send_form",
+                adapter.addFragment(new Register("Rohit Hinduja","08989171066","rohithinduja2013@gmail.com","Shubham Dangi","09828853059","theshubham.dangi@gmail.com","https://docs.google.com/forms/d/1jch2Z3_8k4o1MCUr-Ns5uAVhhYHdJmd_j32oo3S1tpk/viewform?c=0&w=1&usp=send_form",
                         "","http://thecollegefever.com/plinth",status), "Register");
                 break;
             case "Internet of Things":

@@ -19,6 +19,7 @@
     <color name="blue2">#123B6B</color>
     <color name="blue3">#08182F</color>
     <color name="grey2">#252F39</color>
+    <color name="semitransparent">#80000000</color>
 
     <color name="squarecamera__red">#F0001D</color>
     <color name="squarecamera__pressed_red">#B3F0001D</color>

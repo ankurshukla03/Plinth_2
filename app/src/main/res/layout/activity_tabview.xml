@@ -16,6 +16,8 @@
         android:layout_height="wrap_content"
         app:tabGravity="fill"
         app:tabIndicatorColor="@color/white"
+        app:tabTextColor="@color/semitransparent"
+        app:tabSelectedTextColor="@color/white"
         app:tabMode="scrollable" />
 
     <FrameLayout

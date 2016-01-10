@@ -17,6 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import lnmiit.madclub.plinth.Activity.ListEvents;
+import lnmiit.madclub.plinth.Activity.Talks;
 import lnmiit.madclub.plinth.Adapter.GridAdapter;
 import lnmiit.madclub.plinth.Model.ModelEvents;
 import lnmiit.madclub.plinth.Model.ModelGrid;
@@ -72,6 +73,10 @@ public class Home extends android.support.v4.app.Fragment {
                 status_color = modelGrid.status_color;
                 if(modelGrid.name.equals("TALKS")){
                     Intent i = new Intent(getActivity(),Talks.class);
+                    String talk_primary = "#"+textback_color.get(7);
+                    String talk_status = "#"+status.get(7);
+                    i.putExtra("colorprimary",talk_primary);
+                    i.putExtra("status",talk_status);
                     startActivity(i);
                 }else {
                     Intent i = new Intent(getActivity(), ListEvents.class);

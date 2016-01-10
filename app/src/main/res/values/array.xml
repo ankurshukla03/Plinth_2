@@ -49,7 +49,7 @@
         <item>9e9e9e</item>
         <item>9c58a8</item>
         <item>c06161</item>
-        <item>4DB7AD</item>
+        <item>35958c</item>
     </array>
 
     <array name="quiz_list">
@@ -144,7 +144,7 @@
     </array>
 
     <array name="workshop_name">
-        <item>Data Analytics</item>
+        <item>Data Science</item>
         <item>Internet of Things</item>
         <item>Vision Botics</item>
         <item>Networking and Cyber Security</item>

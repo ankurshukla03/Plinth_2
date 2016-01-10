@@ -41,7 +41,8 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDoOI3vhxFSkDJ_F8bkznDSnuXBrR4o490" />
-        <activity android:name=".Activity.Talks"/>
+        <activity android:name=".Activity.Talks"
+            android:theme="@style/AppTheme2"/>
     </application>
 
 </manifest>

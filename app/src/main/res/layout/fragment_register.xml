@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent">
 
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:layout_marginBottom="8dp"
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:background="@color/lightgrey">
+        android:background="@color/lightgrey"
+        android:orientation="vertical">
 
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/griditem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:id="@+id/griditem"
-            android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
-            card_view:cardCornerRadius="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
             card_view:cardBackgroundColor="@color/white"
-            >
+            card_view:cardCornerRadius="2dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -36,42 +33,41 @@
                     android:id="@+id/reg_name1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:gravity="fill_vertical"
                     android:text="Ankru Shukla"
-                    android:layout_margin="10dp"
                     android:textColor="#21272a"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0.5sp"
-                    android:background="#e4e7e7"/>
+                    android:background="#e4e7e7" />
 
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="48dp"
-                    android:weightSum="2"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
 
                     <TextView
                         android:id="@+id/reg_no1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="09783148239"
-                        android:textSize="14dp"
-                        android:textColor="#313538"
+                        android:layout_margin="8dp"
                         android:layout_weight="1.5"
-                        android:layout_margin="8dp" />
+                        android:text="09783148239"
+                        android:textColor="#313538"
+                        android:textSize="14dp" />
 
 
                     <ImageButton
                         android:id="@+id/reg_phone1"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginRight="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="16dp"
                         android:background="@mipmap/ic_contact_black_24dp" />
 
                 </LinearLayout>
@@ -79,56 +75,52 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0.5sp"
-                    android:background="#e4e7e7"/>
+                    android:background="#e4e7e7" />
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="48dp"
-                    android:weightSum="2"
                     android:id="@+id/llcrd1"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
 
                     <TextView
                         android:id="@+id/reg_e1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="09783148239"
-                        android:textSize="14dp"
-                        android:textColor="#313538"
+                        android:layout_margin="8dp"
                         android:layout_weight="1.5"
-                        android:layout_margin="8dp" />
+                        android:text="09783148239"
+                        android:textColor="#313538"
+                        android:textSize="14dp" />
 
 
                     <ImageButton
                         android:id="@+id/reg_mail1"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginRight="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="16dp"
                         android:background="@mipmap/ic_email_black_24dp" />
 
                 </LinearLayout>
             </LinearLayout>
         </android.support.v7.widget.CardView>
 
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/griditem2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:id="@+id/griditem2"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            card_view:cardCornerRadius="2dp"
             android:layout_marginBottom="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
             card_view:cardBackgroundColor="@color/white"
-            >
+            card_view:cardCornerRadius="2dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:orientation="vertical"
                 android:weightSum="1">
 
@@ -136,43 +128,41 @@
                     android:id="@+id/reg_name2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:gravity="fill_vertical"
                     android:text="Ankru Shukla"
-                    android:layout_margin="10dp"
                     android:textColor="#21272a"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0.5sp"
-                    android:background="#e4e7e7"/>
+                    android:background="#e4e7e7" />
 
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="48dp"
-                    android:weightSum="2"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
 
                     <TextView
                         android:id="@+id/reg_no2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="09783148239"
-                        android:textSize="14dp"
-                        android:textColor="#313538"
-                        android:layout_weight="1.5"
                         android:layout_margin="8dp"
-                        />
+                        android:layout_weight="1.5"
+                        android:text="09783148239"
+                        android:textColor="#313538"
+                        android:textSize="14dp" />
 
 
                     <ImageButton
                         android:id="@+id/reg_phone2"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginRight="30dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_gravity="center"
                         android:background="@mipmap/ic_contact_black_24dp" />
 
                 </LinearLayout>
@@ -180,34 +170,32 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0.5sp"
-                    android:background="#e4e7e7"/>
+                    android:background="#e4e7e7" />
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="48dp"
-                    android:weightSum="2"
                     android:id="@+id/llcrd2"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
 
                     <TextView
                         android:id="@+id/reg_e2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="09783148239"
-                        android:textSize="14dp"
-                        android:layout_weight="1.5"
-                        android:textColor="#313538"
                         android:layout_margin="8dp"
-                        />
+                        android:layout_weight="1.5"
+                        android:text="09783148239"
+                        android:textColor="#313538"
+                        android:textSize="14dp" />
 
 
                     <ImageButton
                         android:id="@+id/reg_mail2"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginRight="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="16dp"
                         android:background="@mipmap/ic_email_black_24dp" />
 
                 </LinearLayout>
@@ -216,36 +204,41 @@
 
 
         <Button
-            android:layout_width="128dp"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:gravity="center"
             android:layout_gravity="center"
-            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
             android:text="Register"
-            android:id="@+id/button"/>
+            android:textColor="@color/white" />
 
         <Button
-            android:layout_width="128dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textColor="@color/white"
             android:id="@+id/button3"
-            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Make Payment"/>
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Make Payment"
+            android:textColor="@color/white" />
 
         <Button
-            android:layout_width="128dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Make Payment"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_gravity="center"
             android:id="@+id/mkpay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginBottom="4dp"
-            />
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Make Payment"
+            android:textColor="@color/white" />
 
         <View
             android:layout_width="match_parent"

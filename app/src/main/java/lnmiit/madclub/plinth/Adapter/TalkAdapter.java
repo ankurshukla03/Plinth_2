@@ -21,11 +21,11 @@ import lnmiit.madclub.plinth.R;
  */
 public class TalkAdapter extends RecyclerView.Adapter<TalkAdapter.ViewHolder> {
 
-    ArrayList<ModelTalks> modelArrayList = new ArrayList<>();
+    ArrayList<ModelTalks> modelTalksArrayList = new ArrayList<>();
     Context context;
 
-    public TalkAdapter(ArrayList<ModelTalks> modelArrayList, Context context) {
-        this.modelArrayList = modelArrayList;
+    public TalkAdapter(ArrayList<ModelTalks> modelTalksArrayList, Context context) {
+        this.modelTalksArrayList = modelTalksArrayList;
         this.context = context;
     }
 
@@ -39,7 +39,7 @@ public class TalkAdapter extends RecyclerView.Adapter<TalkAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(TalkAdapter.ViewHolder holder, int position) {
-            final ModelTalks modelTalks = modelArrayList.get(position);
+            final ModelTalks modelTalks = modelTalksArrayList.get(position);
             holder.name.setText(modelTalks.name);
             holder.designation.setText(modelTalks.designation);
             holder.avatar.setImageResource(modelTalks.image);
@@ -85,7 +85,7 @@ public class TalkAdapter extends RecyclerView.Adapter<TalkAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return modelArrayList.size();
+        return modelTalksArrayList.size();
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {

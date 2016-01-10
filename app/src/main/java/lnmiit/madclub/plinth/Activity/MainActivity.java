@@ -24,6 +24,7 @@ import lnmiit.madclub.plinth.NavigationDrawerFragment.Home;
 import lnmiit.madclub.plinth.NavigationDrawerFragment.ContactUs;
 import lnmiit.madclub.plinth.NavigationDrawerFragment.Developer;
 import lnmiit.madclub.plinth.NavigationDrawerFragment.Map;
+import lnmiit.madclub.plinth.NavigationDrawerFragment.Schedule;
 import lnmiit.madclub.plinth.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -139,6 +140,11 @@ public class MainActivity extends AppCompatActivity {
                 viewIsAtHome = true;
                 switchFragment(Home.class);
                 title.setText("Events");
+                break;
+            case R.id.nav_schedule:
+                viewIsAtHome = false;
+                switchFragment(Schedule.class);
+                title.setText("Schedule");
                 break;
             case R.id.nav_map:
                 viewIsAtHome = false;
