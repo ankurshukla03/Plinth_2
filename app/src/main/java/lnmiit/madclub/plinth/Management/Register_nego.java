@@ -22,7 +22,7 @@ public class Register_nego extends Fragment {
 
 
     //it has only two button isme payment ka option nh hai
-    Button button_reg,payment;
+    Button button_reg,payment,button3;
     ImageButton phone1,mail1,phone2,mail2;
     TextView name1, name2,no1,no2,email1,email2;
     String color;
@@ -45,11 +45,13 @@ public class Register_nego extends Fragment {
         no2 = (TextView)view.findViewById(R.id.reg_no2);
         email1 = (TextView)view.findViewById(R.id.reg_e1);
         email2 = (TextView)view.findViewById(R.id.reg_e2);
+        button3 =(Button)view.findViewById(R.id.button3);
 
         color = "#d69940";
 
         button_reg.setText("STARTUPS REGISTER HERE");
         payment.setText("VIEWERS REGISTER HERE");
+        button3.setVisibility(View.GONE);
 
         name1.setText("Akhilesh Maheshwari");
         name2.setText("Guarav Maheshwari");
