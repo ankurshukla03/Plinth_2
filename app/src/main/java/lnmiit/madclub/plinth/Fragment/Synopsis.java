@@ -90,7 +90,22 @@ public class Synopsis extends Fragment {
                 imageView.setImageResource(R.drawable.fixtb);
                 wv.loadUrl("file:///android_asset/FixTheBug_Synopsis.html");
                 break;
-
+            case 14:
+                imageView.setImageResource(R.drawable.w1);
+                wv.loadUrl("file:///android_asset/FixTheBug_Synopsis.html");
+                break;
+            case 15:
+                imageView.setImageResource(R.drawable.w2);
+                wv.loadUrl("file:///android_asset/FixTheBug_Synopsis.html");
+                break;
+            case 16:
+                imageView.setImageResource(R.drawable.w3);
+                wv.loadUrl("file:///android_asset/FixTheBug_Synopsis.html");
+                break;
+            case 17:
+                imageView.setImageResource(R.drawable.w4);
+                wv.loadUrl("file:///android_asset/FixTheBug_Synopsis.html");
+                break;
         }
 
 

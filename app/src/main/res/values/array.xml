@@ -124,10 +124,10 @@
     </array>
 
     <array name="contact_image">
-        <item>@drawable/cn_sd</item>
-        <item>@drawable/cn_ss</item>
-        <item>@drawable/cn_kp</item>
-        <item>@drawable/cn_sd</item>
+        <item>@drawable/rahul</item>
+        <item>@drawable/sethia</item>
+        <item>@drawable/matani</item>
+        <item>@drawable/dangi</item>
     </array>
 
     <array name="contact_phone">
@@ -151,10 +151,10 @@
     </array>
 
     <array name="workshop_image">
-        <item>@drawable/cn_sd</item>
-        <item>@drawable/cn_ss</item>
-        <item>@drawable/cn_kp</item>
-        <item>@drawable/cn_sd</item>
+        <item>@drawable/w1</item>
+        <item>@drawable/w2</item>
+        <item>@drawable/w3</item>
+        <item>@drawable/w4</item>
     </array>
 
 

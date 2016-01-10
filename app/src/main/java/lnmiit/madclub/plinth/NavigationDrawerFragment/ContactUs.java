@@ -23,7 +23,7 @@ public class ContactUs extends Fragment {
     public ArrayList<ModelContacts> modelContactsArrayList = new ArrayList<>();
     ListView contact;
     ContactAdapter contactAdapter;
-    String[] no = {"9530100403","07023479993",
+    String[] no = {"09530100403","07023479993",
             "09462317503",
             "09828853059"};
     public ContactUs() {

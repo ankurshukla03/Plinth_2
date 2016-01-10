@@ -91,6 +91,18 @@ public class Rules extends Fragment {
             case 13:
                 wv.loadUrl("file:///android_asset/FixTheBug_Rules.html");
                 break;
+            case 14:
+                wv.loadUrl("file:///android_asset/FixTheBug_Rules.html");
+                break;
+            case 15:
+                wv.loadUrl("file:///android_asset/FixTheBug_Rules.html");
+                break;
+            case 16:
+                wv.loadUrl("file:///android_asset/FixTheBug_Rules.html");
+                break;
+            case 17:
+                wv.loadUrl("file:///android_asset/FixTheBug_Rules.html");
+                break;
 
         }
 
