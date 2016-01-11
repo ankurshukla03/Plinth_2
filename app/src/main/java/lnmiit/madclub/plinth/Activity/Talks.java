@@ -30,12 +30,14 @@ public class Talks extends AppCompatActivity {
     ,"Ex-Director ISI"};
     public static String[] talks_fb = {"https://www.facebook.com/pages/Krishnaswamy-Kasturirangan/112031638816057?fref=ts",
             "https://www.facebook.com/ashwinsanghi?fref=ts",
-            "",
+            "https://www.facebook.com/amishasethiauthor/",
             ""};
     public static String[] talks_twitter = {"","https://twitter.com/ashwinsanghi","",""};
-    public static String[] talks_linkedin = {"","https://www.linkedin.com/in/ashwinsanghi","",""};
+    public static String[] talks_linkedin = {"","https://www.linkedin.com/in/ashwinsanghi",
+            "https://www.linkedin.com/in/amishasethi",""};
     public static String[] talks_wiki = {"https://en.wikipedia.org/wiki/Krishnaswamy_Kasturirangan",
-            "https://en.wikipedia.org/wiki/Ashwin_Sanghi","",""};
+            "https://en.wikipedia.org/wiki/Ashwin_Sanghi",
+            "https://en.wikipedia.org/wiki/Amisha_Sethi","https://en.wikipedia.org/wiki/Sankar_Kumar_Pal"};
     RecyclerView mRecyclerView;
     RecyclerView.LayoutManager mLayoutManager;
     RecyclerView.Adapter mAdapter;

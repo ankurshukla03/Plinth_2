@@ -1,5 +1,6 @@
 package lnmiit.madclub.plinth.Fragment;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -19,6 +20,7 @@ public class Synopsis extends Fragment {
     int type;
     public Synopsis() {
     }
+    @SuppressLint("ValidFragment")
     public Synopsis(int type) {
         this.type=type;
     }

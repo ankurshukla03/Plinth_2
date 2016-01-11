@@ -1,5 +1,6 @@
 package lnmiit.madclub.plinth.Fragment;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
@@ -32,6 +33,7 @@ public class Register extends Fragment {
 
     public Register() {
     }
+    @SuppressLint("ValidFragment")
     public Register(String n1,String p1,String m1,String n2,String p2,String m2,String reg1,String reg2,String pay,String colour) {
         this.n1=n1;
         this.n2=n2;

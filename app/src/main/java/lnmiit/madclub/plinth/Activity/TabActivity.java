@@ -60,7 +60,7 @@ public class TabActivity extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
         tabLayout.setBackgroundColor(Color.parseColor(primaryColor));
-        //tabLayout.setTabTextColors(Color.parseColor(secondaryColor),R.color.white);
+        //tabLayout.setTabTextColors(Color.parseColor(secondaryColor),R.color.w);
     }
 
     private void setUpToolbar() {
@@ -154,6 +154,7 @@ public class TabActivity extends AppCompatActivity {
                 adapter.addFragment(new Synopsis_Robotics(-2,TabActivity.this), "Synopsis");
                 adapter.addFragment(new ProblemStatement(-2), "Problem Statement");
                 adapter.addFragment(new Rules(-2), "Rules");
+                adapter.addFragment(new Arena(-2), "Arena");
                 adapter.addFragment(new Register("Harshit Somani","08003244787","harshitsom@gmail.com","Mithin Nair","07073837006","nairmithin2@gmail.com",
                         "https://docs.google.com/forms/d/1d0-kYWS42pSIkFl0U-Xi0lf-PCURFeWr6zDKUe7KV5o/viewform?embedded=true","",
                         "http://thecollegefever.com/plinth",status), "Register");

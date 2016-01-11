@@ -1,5 +1,6 @@
 package lnmiit.madclub.plinth.Fragment;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -19,6 +20,7 @@ public class Rules extends Fragment {
     private WebView wv;
     public Rules() {
     }
+    @SuppressLint("ValidFragment")
     public Rules(int type) {
         this.type=type;
     }
@@ -68,10 +70,10 @@ public class Rules extends Fragment {
                 wv.loadUrl("file:///android_asset/Lyrewrite_Rules.html");
                 break;
             case 6:
-                wv.loadUrl("file:///android_asset/TurnCoat_Rules.html");
+                wv.loadUrl("file:///android_asset/FloorCrossing_Rules.html");
                 break;
             case 7:
-                wv.loadUrl("file:///android_asset/TurnCoat_PS.html");
+                wv.loadUrl("file:///android_asset/TurnCoat_Rules.html");
                 break;
             case 8:
                 wv.loadUrl("file:///android_asset/Astrohunt_Rules.html");

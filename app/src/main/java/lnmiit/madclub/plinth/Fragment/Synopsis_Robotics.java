@@ -1,5 +1,6 @@
 package lnmiit.madclub.plinth.Fragment;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Bundle;
@@ -29,6 +30,7 @@ public class Synopsis_Robotics extends Fragment {
     Context context;
     public Synopsis_Robotics() {
     }
+    @SuppressLint("ValidFragment")
     public Synopsis_Robotics(int type,Context context) {
         this.type=type;
         this.context = context;
