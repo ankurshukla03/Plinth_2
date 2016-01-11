@@ -49,6 +49,12 @@ public class TalkAdapter extends RecyclerView.Adapter<TalkAdapter.ViewHolder> {
             if(modelTalks.linked_link.equals("")){
                 holder.linkedin.setVisibility(View.GONE);
             }
+            if(modelTalks.wiki_link.equals("")){
+            holder.wiki.setVisibility(View.GONE);
+            }
+            if(modelTalks.fb_link.equals("")){
+            holder.fb.setVisibility(View.GONE);
+            }
             holder.fb.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

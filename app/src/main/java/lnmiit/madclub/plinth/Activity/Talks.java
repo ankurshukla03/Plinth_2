@@ -24,20 +24,25 @@ import lnmiit.madclub.plinth.R;
 public class Talks extends AppCompatActivity {
 
     public static ArrayList<ModelTalks> modelTalksArrayList = new ArrayList<>();
-    public static int[] talk_image = {R.drawable.s1,R.drawable.sx,R.drawable.s3,R.drawable.s4};
-    public static String[] talk_name = {"Dr. K. Kasturirangan","Ashwin Sanghi","Amisha Sethi","Dr. Sankar K. Pal"};
+    public static int[] talk_image = {R.drawable.s1,R.drawable.sx,R.drawable.s3,R.drawable.s4,
+    R.drawable.s5,R.drawable.s6,R.drawable.s7};
+    public static String[] talk_name = {"Dr. K. Kasturirangan","Ashwin Sanghi","Amisha Sethi","Dr. Sankar K. Pal"
+    ,"Will Patterson","Anand Oswal","Varun Dhawan"};
     public static String[] designation = {"Ex-Chairman ISRO ","Best-Selling Author ","Author | CMO"
-    ,"Ex-Director ISI"};
+    ,"Ex-Director ISI","Freelance Graphic Designer","V.P. Engineering,Cisco","Int. Architect,Innovaccer"};
     public static String[] talks_fb = {"https://www.facebook.com/pages/Krishnaswamy-Kasturirangan/112031638816057?fref=ts",
             "https://www.facebook.com/ashwinsanghi?fref=ts",
             "https://www.facebook.com/amishasethiauthor/",
-            ""};
-    public static String[] talks_twitter = {"","https://twitter.com/ashwinsanghi","",""};
+            "","https://www.facebook.com/willpatersondesign","","https://www.facebook.com/varun.dhawan?fref=ts"};
+    public static String[] talks_twitter = {"","https://twitter.com/ashwinsanghi","","",
+    "https://twitter.com/will_paterson10","https://twitter.com/aoswal1234","https://twitter.com/varunrokz"};
     public static String[] talks_linkedin = {"","https://www.linkedin.com/in/ashwinsanghi",
-            "https://www.linkedin.com/in/amishasethi",""};
+            "https://www.linkedin.com/in/amishasethi","","","https://www.linkedin.com/in/anandoswal",
+            "https://www.linkedin.com/in/varundhawan5792"};
     public static String[] talks_wiki = {"https://en.wikipedia.org/wiki/Krishnaswamy_Kasturirangan",
             "https://en.wikipedia.org/wiki/Ashwin_Sanghi",
-            "https://en.wikipedia.org/wiki/Amisha_Sethi","https://en.wikipedia.org/wiki/Sankar_Kumar_Pal"};
+            "https://en.wikipedia.org/wiki/Amisha_Sethi","https://en.wikipedia.org/wiki/Sankar_Kumar_Pal",
+    "","",""};
     RecyclerView mRecyclerView;
     RecyclerView.LayoutManager mLayoutManager;
     RecyclerView.Adapter mAdapter;
