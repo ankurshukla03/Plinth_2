@@ -96,16 +96,16 @@ public class ProblemStatement extends Fragment {
                 wv.loadUrl("file:///android_asset/FixTheBug_PS.html");
                 break;
             case 14:
-                wv.loadUrl("file:///android_asset/FixTheBug_Rules.html");
+                wv.loadUrl("file:///android_asset/Workshops/DataScienece_WorkshopContent.html");
                 break;
             case 15:
-                wv.loadUrl("file:///android_asset/FixTheBug_Rules.html");
+                wv.loadUrl("file:///android_asset/Workshops/IOT_WorkshopContent.html");
                 break;
             case 16:
-                wv.loadUrl("file:///android_asset/FixTheBug_Rules.html");
+                wv.loadUrl("file:///android_asset/Workshops/Vision_WorkshopContent.html");
                 break;
             case 17:
-                wv.loadUrl("file:///android_asset/FixTheBug_Rules.html");
+                wv.loadUrl("file:///android_asset/Workshops/EHacking_WorkshopContent.html");
                 break;
 
         }
