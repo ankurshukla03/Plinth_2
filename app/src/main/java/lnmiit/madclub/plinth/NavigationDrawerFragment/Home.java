@@ -29,11 +29,10 @@ import lnmiit.madclub.plinth.Widget.RecyclerItemClickListener;
  */
 public class Home extends android.support.v4.app.Fragment {
 
-    public static int[] typesimages={R.drawable.robotics,R.drawable.quiz,R.drawable.ecell,
-            R.drawable.literary,R.drawable.astronomy,R.drawable.coding,R.drawable.workshops,
-            R.drawable.talks};
-    public static String[] typesnames={"ROBOTICS","QUIZ","E-CELL","LITERARY",
-            "ASTRONOMY","CODING","WORKSHOPS","TALKS"};
+    public static int[] typesimages={R.drawable.workshops,R.drawable.talks,R.drawable.robotics,R.drawable.quiz,R.drawable.ecell,
+            R.drawable.literary,R.drawable.astronomy,R.drawable.coding};
+    public static String[] typesnames={"WORKSHOPS","TALKS","ROBOTICS","QUIZ","E-CELL","LITERARY",
+            "ASTRONOMY","CODING"};
 
     ArrayList<ModelGrid> modelGridArrayList = new ArrayList<>();
     List<String> robo ,astronomy,quiz,e_cell,coding,literary,workshop;
@@ -109,7 +108,7 @@ public class Home extends android.support.v4.app.Fragment {
 
     private ArrayList<ModelEvents> addarraylist(int i){
         ArrayList<ModelEvents> modelEventsArrayList = new ArrayList<>();
-        if(i == 0) {
+        if(i == 2) {
             for (int j = 0; j < robo.size(); j++) {
                 ModelEvents modelEvents = new ModelEvents();
                 modelEvents.name = robo.get(j);
@@ -117,7 +116,7 @@ public class Home extends android.support.v4.app.Fragment {
                 modelEvents.flag = 1;
                 modelEventsArrayList.add(modelEvents);
             }
-        }else if(i == 1){
+        }else if(i == 3){
             for (int j = 0; j < quiz.size(); j++) {
                 ModelEvents modelEvents = new ModelEvents();
                 modelEvents.name = quiz.get(j);
@@ -125,7 +124,7 @@ public class Home extends android.support.v4.app.Fragment {
                 modelEvents.flag = 6;
                 modelEventsArrayList.add(modelEvents);
             }
-        }else if(i == 2){
+        }else if(i == 4){
             for (int j = 0; j < e_cell.size(); j++) {
                 ModelEvents modelEvents = new ModelEvents();
                 modelEvents.name = e_cell.get(j);
@@ -133,7 +132,7 @@ public class Home extends android.support.v4.app.Fragment {
                 modelEvents.flag = 6;
                 modelEventsArrayList.add(modelEvents);
             }
-        }else if(i == 3){
+        }else if(i == 5){
             for (int j = 0; j < literary.size(); j++) {
                 ModelEvents modelEvents = new ModelEvents();
                 modelEvents.name = literary.get(j);
@@ -141,7 +140,7 @@ public class Home extends android.support.v4.app.Fragment {
                 modelEvents.flag = 6;
                 modelEventsArrayList.add(modelEvents);
             }
-        }else if(i == 4){
+        }else if(i == 6){
             for (int j = 0; j < astronomy.size(); j++) {
                 ModelEvents modelEvents = new ModelEvents();
                 modelEvents.name = astronomy.get(j);
@@ -149,7 +148,7 @@ public class Home extends android.support.v4.app.Fragment {
                 modelEvents.flag = 6;
                 modelEventsArrayList.add(modelEvents);
             }
-        }else if(i == 5){
+        }else if(i == 7){
             for (int j = 0; j < coding.size(); j++) {
                 ModelEvents modelEvents = new ModelEvents();
                 modelEvents.name = coding.get(j);
@@ -158,7 +157,7 @@ public class Home extends android.support.v4.app.Fragment {
                 modelEventsArrayList.add(modelEvents);
             }
         }
-        else if(i == 6){
+        else if(i == 0){
             for (int j = 0; j < workshop.size(); j++) {
                 ModelEvents modelEvents = new ModelEvents();
                 modelEvents.name = workshop.get(j);
