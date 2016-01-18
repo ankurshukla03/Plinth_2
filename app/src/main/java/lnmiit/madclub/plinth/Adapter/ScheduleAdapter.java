@@ -1,6 +1,7 @@
 package lnmiit.madclub.plinth.Adapter;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,7 +36,7 @@ public class ScheduleAdapter extends RecyclerView.Adapter<ScheduleAdapter.ViewHo
     public void onBindViewHolder(ScheduleAdapter.ViewHolder holder, int position) {
         String temp = day.get(position);
         holder.name.setText(temp);
-
+        holder.name.setTextColor(Color.parseColor("#000000"));
     }
 
     @Override

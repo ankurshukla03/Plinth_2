@@ -3,6 +3,7 @@
     android:id="@+id/shadow"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lightgrey"
     android:foreground="@drawable/header_shadow">
 
     <android.support.v7.widget.RecyclerView
@@ -10,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="2dp"
+        android:layout_marginTop="4dp"
         />
 
 </FrameLayout>
